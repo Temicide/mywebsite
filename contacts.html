@@ -1,33 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Temicides'Contacts</title>
-        <link rel="icon" type="image/png" href="images/temiroblox.png">
-    </head>
-    <body>
-        <h1>My time table to contact me 🕒</h1>
-        <hr>
-        <table border="1">
-            <tr>
-                <th width="100">Monday</th> <!-- Table header -->
-                <th width="100">Tuesday</th>
-                <th width="100">Wednesday</th>
-                <th width="100">Thursday</th>
-                <th width="100">Friday</th>
-                <th width="100">Saturday</th>
-                <th width="100">Sunday</th> 
-            </tr>
-            <tr align="center">
-                <td style="color: red;">Busy</td> <!--Table data-->
-                <td style="color: green">Free</td>
-                <td style="color: red;">Busy</td>
-                <td style="color: red;">Busy</td>
-                <td style="color: green">Free</td>
-                <td style="color: green">Free</td>
-                <td style="color: red;">Busy</td>
-            </tr>
-        </table>
-        <br>
-        <a href="index.html">go back to home</a>
-    </body>
+
+<head>
+    <title>Temicides'Contacts</title>
+    <link rel="icon" type="image/png" href="images/temiroblox.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        button {
+            font-size: large;
+            margin: 10px;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 500;
+        }
+
+        .fixed-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .centable{
+            margin-left: auto;
+            margin-right: auto;           
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My time table to contact me 🕒</h1>
+    <hr>
+    <table border="1" class="centable">
+        <tr>
+            <th width="100">Monday</th> <!-- Table header -->
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+            <th width="100">Sunday</th>
+        </tr>
+        <tr align="center">
+            <td style="color: red;">Busy</td> <!--Table data-->
+            <td style="color: green">Free</td>
+            <td style="color: red;">Busy</td>
+            <td style="color: red;">Busy</td>
+            <td style="color: green">Free</td>
+            <td style="color: green">Free</td>
+            <td style="color: red;">Busy</td>
+        </tr>
+    </table>
+    <br>
+    <p style="font-weight: bold;">Gmail : </p><p>athiphatsaramas@gmail.com</p>
+    <p style="font-weight: bold;">Tel : </p><p>0651542941</p>
+    <div class="button-container fixed-button">
+        <a href="index.html">
+            <button style="font-size: large;">Home</button>
+        </a>
+    </div>
+</body>
+
 </html>
